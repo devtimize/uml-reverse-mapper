@@ -1,0 +1,23 @@
+/build/
+/bin/
+target/
+
+.DS_Store
+ 
+*.class
+.classpath
+.project
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Intellij
+.idea/
+*.iml
+*.iws
+._README.md
+
+# shade-plugin ignore extra pom file
+drm-core/dependency-reduced-pom.xml
